@@ -21,7 +21,7 @@
                <name xml:id="nbtjpo81">mei-friend</name>
                <p xml:id="p24vfb71">First edit by mei-friend 1.1.5, 14 May 2024.</p>
             </application>
-         <application isodate="2026-04-20"><name>GitHub Action Scripts</name><p>Add system breaks</p></application></appInfo>
+         <application startdate="2026-04-20" enddate="2026-05-20"><name>GitHub Action Scripts</name><p>Add system breaks</p><p>Add system beginnings</p></application></appInfo>
       </encodingDesc>
    </meiHead>
    <music xml:id="mm9bgqh1">
@@ -444,7 +444,7 @@
                      </supplied>
                      <tie xml:id="t1qgrb2y" endid="#n25n598" startid="#nzhxhsr"/>
                   </measure>
-                  <sb/><measure xml:id="meay5fl" facs="#zone_01J46HF9ZQ6NDC7E0QTJYM9W47" n="6">
+                  <measure xml:id="meay5fl" facs="#zone_01J46HF9ZQ6NDC7E0QTJYM9W47" n="6">
                      <staff xml:id="m6s1" n="1">
                         <layer xml:id="m6s1l1" n="1">
                            <note xml:id="n1biem2t" dots="1" dur="4" oct="5" pname="e">
@@ -1352,7 +1352,7 @@
                      <tie xml:id="tv2fsg31" endid="#n72qc9u" staff="1" startid="#n1hr1sst"/>
                      <slur xml:id="s0gfmm31" endid="#nkmv4rx" staff="1" startid="#n72qc9u"/>
                   </measure>
-                  <sb/><measure xml:id="mfqzsf5" facs="#zone_01J46HF9ZW8GWMJF2EDMXX2DHP" n="16">
+                  <measure xml:id="mfqzsf5" facs="#zone_01J46HF9ZW8GWMJF2EDMXX2DHP" n="16">
                      <staff xml:id="m16s1" n="1">
                         <layer xml:id="m16s1l1" n="1">
                            <beam xml:id="bclj9yo2">
@@ -2259,7 +2259,7 @@
                      </supplied>
                      <tie xml:id="t2lb4g2" endid="#nfp35tk" startid="#n1fyd3yv"/>
                   </measure>
-                  <sb/><measure xml:id="mvkzkuj" facs="#zone_01J46HF9ZZE1DGZ4QJKYNNXCDN" n="26">
+                  <measure xml:id="mvkzkuj" facs="#zone_01J46HF9ZZE1DGZ4QJKYNNXCDN" n="26">
                      <staff xml:id="m26s1" n="1">
                         <layer xml:id="m26s1l1" n="1">
                            <note xml:id="ni8ss0e" dots="1" dur="4" oct="5" pname="e">
@@ -3115,7 +3115,7 @@
                      <slur xml:id="smkux9h" endid="#n1y2hfew" staff="2" startid="#n44s3zb"/>
                      <slur xml:id="sgx1e921" endid="#nnhsep9" staff="2" startid="#n6mqs54"/>
                   </measure>
-                  <sb/><measure xml:id="mhfjc37" facs="#zone_01J46HFA01W1B3HJD857B3RWNZ" n="36">
+                  <measure xml:id="mhfjc37" facs="#zone_01J46HFA01W1B3HJD857B3RWNZ" n="36">
                      <staff xml:id="m36s1" n="1">
                         <layer xml:id="m36s1l1" n="1">
                            <note xml:id="nlgcxns" dots="1" dur="4" oct="5" pname="e"/>
