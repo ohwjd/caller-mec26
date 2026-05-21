@@ -144,7 +144,7 @@
                <name xml:id="nw9nai61">GitHub Action Scripts</name>
                <p xml:id="p7qmuc01">Adjusted Finis position (Guideline-change)</p>
                <p xml:id="pybh9701">Adjusted the Header according to Guidelines</p>
-            <p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p></application>
+            <p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p><p>Add system beginnings</p></application>
          </appInfo>
          <editorialDecl xml:id="e6uw71b">
             <p xml:id="p8cjjon1">E-LAUTE Edition Guidelines: https://edition.onb.ac.at/fedora/objects/o:lau.red-editionguidelines/datastreams/MEI_CONVENTIONS/content</p>
@@ -330,7 +330,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="m8bgl61" n="6">
+                  <sb/><measure xml:id="m8bgl61" n="6">
                      <staff xml:id="s8m368j1" n="1">
                         <layer xml:id="lg37ig6" n="1">
                            <tabGrp xml:id="thuw8jh1" dur="4">
@@ -454,7 +454,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mw5rvtc1" n="11">
+                  <sb/><measure xml:id="mw5rvtc1" n="11">
                      <staff xml:id="s6jvkb6" n="1">
                         <layer xml:id="lwnqd6l2" n="1">
                            <tabGrp xml:id="t6iczlf" dur="4">
@@ -544,7 +544,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="ms1g5i3" n="16">
+                  <sb/><measure xml:id="ms1g5i3" n="16">
                      <staff xml:id="sune6pc" n="1">
                         <layer xml:id="ltlwvum1" n="1">
                            <tabGrp xml:id="tuvuibn1" dur="2">
@@ -659,7 +659,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mx8y461" n="21">
+                  <sb/><measure xml:id="mx8y461" n="21">
                      <staff xml:id="s0ikf9o2" n="1">
                         <layer xml:id="lq7e91z1" n="1">
                            <tabGrp xml:id="tza7mjy1" dur="8">
@@ -790,7 +790,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mne8is91" n="26">
+                  <sb/><measure xml:id="mne8is91" n="26">
                      <staff xml:id="spje0s01" n="1">
                         <layer xml:id="l1nptj1" n="1">
                            <tabGrp xml:id="tsz0u8p1" dur="2">
@@ -894,7 +894,7 @@
                         <rend xml:id="r4pr3fb1" halign="right">finis</rend>
                      </dir>
                   </measure>
-               </section>
+               <sb/></section>
             </score>
          </mdiv>
       </body>
