@@ -23,13 +23,13 @@
     },
     {
       "id": "add_finis",
-      "label": "Add finis with finis text to last measure",
-      "description": "creates finistext in dir at last tstamp of last measure",
+      "label": "Add finis to last measure",
+      "description": "Creates finis text in dir at last tstamp of last measure.",
       "userFacing": true,
       "params": {
         "finisText": {
           "type": "String",
-          "default": ""
+          "default": "Finis"
         }
       },
       "scripts": ["script_collection.add_finis_to_last_measure"],
@@ -38,7 +38,7 @@
     {
       "id": "add_facs",
       "label": "Add facsimile structure",
-      "description": "takes help_dom as context_dom and finds position of page beginnigs, adds them to ed_GLT or ed_CMN",
+      "description": "Takes help_dom as context_dom and finds position of page beginnigs, adds them to ed_GLT or ed_CMN.",
       "userFacing": true,
       "params": {
         "getElemFrom": {
@@ -52,7 +52,7 @@
     {
       "id": "add_header_from_context",
       "label": "Add Header from diplGLT",
-      "description": "Adds header from dipl GLT with needed adjustments for all other filetypes",
+      "description": "Adds header from dipl GLT with needed adjustments for all other filetypes.",
       "userFacing": true,
       "params": {
         "projectstaff": {
@@ -69,7 +69,7 @@
     {
       "id": "prepare_ed_GLT_from_fronimo",
       "label": "Prepare ed_GLT from Fronimo",
-      "description": "Add Header, Facsimile, Section, Finis, sbs. getElemfrom will be source for header, facs, sections, if no finis should be added, leave empty",
+      "description": "Add Header, Facsimile, Section, Finis, sbs. getElemfrom will be source for header, facs, sections, if no finis should be added, leave empty.",
       "userFacing": true,
       "params": {
         "getElemFrom": {
