@@ -22,8 +22,22 @@
       "commitResult": true
     },
     {
-      "id": "add_section_and_foldir_to_ed",
-      "label": "Add section and dirs with folio to ed from getElemFrom",
+      "id": "add_finis",
+      "label": "Add finis with finis text to last measure",
+      "description": "creates finistext in dir at last tstamp of last measure",
+      "userFacing": true,
+      "params": {
+        "finisText": {
+          "type": "String",
+          "default": ""
+        }
+      },
+      "scripts": ["script_collection.add_finis_to_last_measure"],
+      "commitResult": true
+    },
+    {
+      "id": "add_facs",
+      "label": "Add facsimile structure",
       "description": "takes help_dom as context_dom and finds position of page beginnigs, adds them to ed_GLT or ed_CMN",
       "userFacing": true,
       "params": {
@@ -32,13 +46,30 @@
           "default": "dipl_GLT"
         }
       },
-      "scripts": ["script_collection.add_section_foldir_from_context_to_ed"],
+      "scripts": ["script_collection.add_facs_from_context"],
+      "commitResult": true
+    },
+    {
+      "id": "add_header_from_context",
+      "label": "Add Header from diplGLT",
+      "description": "Adds header from dipl GLT with needed adjustments for all other filetypes",
+      "userFacing": true,
+      "params": {
+        "projectstaff": {
+          "type": "String"
+        },
+        "getElemFrom": {
+          "type": "String",
+          "default": "dipl_GLT"
+        }
+      },
+      "scripts": ["script_collection.add_header_from_context"],
       "commitResult": true
     },
     {
       "id": "prepare_ed_GLT_from_fronimo",
       "label": "Prepare ed_GLT from Fronimo",
-      "description": "Add Header, Facs, Section, Finis, sbs. getElemfrom will be source for header, facs, sections, if no finis should be added, leave empty",
+      "description": "Add Header, Facsimile, Section, Finis, sbs. getElemfrom will be source for header, facs, sections, if no finis should be added, leave empty",
       "userFacing": true,
       "params": {
         "getElemFrom": {
@@ -66,59 +97,5 @@
       ],
       "commitResult": true
     },
-    {
-      "id": "add_finis",
-      "label": "Add finis with finis text to last measure",
-      "description": "creates finistext in dir at last tstamp of last measure",
-      "userFacing": true,
-      "params": {
-        "finisText": {
-          "type": "String",
-          "default": ""
-        }
-      },
-      "scripts": ["script_collection.add_finis_to_last_measure"],
-      "commitResult": true
-    },
-    {
-      "id": "add_facs",
-      "label": "Add facsimile from getElemFrom",
-      "description": "takes help_dom as context_dom and finds position of page beginnigs, adds them to ed_GLT or ed_CMN",
-      "userFacing": true,
-      "params": {
-        "getElemFrom": {
-          "type": "String",
-          "default": "dipl_GLT"
-        }
-      },
-      "scripts": ["script_collection.add_facs_from_context"],
-      "commitResult": true
-    },
-    {
-      "id": "add_header_from_context",
-      "label": "Add Header from getElemFrom",
-      "description": "Adds header from dipl GLT with needed adjustments for all other filetypes",
-      "userFacing": true,
-      "params": {
-        "projectstaff": {
-          "type": "String"
-        },
-        "getElemFrom": {
-          "type": "String",
-          "default": "dipl_GLT"
-        }
-      },
-      "scripts": ["script_collection.add_header_from_context"],
-      "commitResult": true
-    },
-    {
-      "id": "compare_mnums",
-      "label": "Compare number of measures",
-      "description": "Compares number of measures in active and context files and prints number of measures of each file. Compares last measure number and accounts for pickup measures and invisible measures.",
-      "userFacing": true,
-      "params": {},
-      "scripts": ["script_collection.compare_mnums"],
-      "commitResult": false
-    }
   ]
 }
